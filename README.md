@@ -33,14 +33,14 @@ To optimize content delivery and enhance performance, I integrated Amazon CloudF
 ## CI/CD Pipeline for Continuous Integration and Deployment
 I implemented a robust CI/CD pipeline using GitHub Actions. This pipeline automates the process of building, deploying, and updating my portfolio website whenever changes are pushed to the repository. The workflow involves the following steps:
 
-1. **GitHub Actions Configuration:** I created a workflow file (`deploy.yml`) in the `.github/workflows` directory within this repository.
+1. **GitHub Actions Configuration:** I created a workflow file (`main.yml`) in the `.github/workflows` directory within this repository.
 2. **Workflow Steps:** The workflow consists of steps to:
    - Check out the repository code.
    - Install the AWS CLI to interact with AWS services.
    - Build the website using build scripts.
    - Sync website files to the S3 bucket using the AWS CLI's `aws s3 sync` command.
    - Invalidate CloudFront cache to ensure visitors receive the latest content.
-3. **AWS Credentials Management:** AWS access credentials (AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY) are stored as encrypted secrets in the GitHub repository settings.
+3. **AWS Credentials Management:** AWS access credentials (AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY) and CLOUDFRONT Distribution ID and S3 Bucket Name are stored as encrypted secrets in the GitHub repository settings.
 4. **Triggering Workflow:** The workflow is automatically triggered whenever changes are pushed to the main branch.
 5. **Benefits of CI/CD:** The CI/CD pipeline ensures that updates to the website are automatically deployed, reducing manual intervention and enabling rapid iteration.
 
