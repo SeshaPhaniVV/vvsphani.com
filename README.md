@@ -11,7 +11,7 @@ My personal portfolio showcases my journey, skills, and projects. The technology
 - **Hosting:** Amazon S3
 - **Content Delivery:** Amazon CloudFront
 - **Version Control:** GitHub
-- **CI/CD:** GitHub Actions
+- **CI/CD:** GitHub Actions, AWS IAM
 - **Domain Management:** Amazon Route 53
 - **SSL Certificate:** AWS Certificate Manager (ACM)
 
