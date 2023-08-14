@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Phani VVS Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#4a0d35">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/john-doe2.png"
+              alt="Phani VVS Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Phani VVS</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+
+            <li class="header__link-wrapper">
+              <a href="./index.html#experience" class="header__link"> Experience </a>
+            </li>
+
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#experience"> Experience </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hello World,</h1>
+        <h1 class="heading-primary">I AM PHANI VVS.</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            A Full Stack Developer with
+            <script>
+                var startYear = 2017;
+                var currentYear = new Date().getFullYear();
+                var yearsOfExperience = currentYear - startYear;
+                document.write(yearsOfExperience + "+ years of experience");
+            </script>
+        </p>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/phani-vvs-465271137/" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/SeshaPhaniVV" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.youtube.com/playlist?list=PL05xBOTCAQ11h1cZ59TTRtm_6JiQPCxHy" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Discover more about me and my expanding areas of expertise
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey there! I'm
+                <strong>Venkata Sesha Phani (Phani VVS)</strong>,
+                a passionate <strong>Full Stack Web Developer</strong> based in
+                Chicago, Illinois. Currently pursuing my Masters in Computer Science from the University of Illinois Chicago, set to graduate in May 2024.
+            </p>
+            <p class="about__content-details-para">
+                I thrive on collaborating with talented individuals and have a knack for crafting <strong>digital solutions</strong> that make an impact. With proficiency in areas such as Data Structures & Algorithms, System Design, and Web Development, I'm eager to take on new challenges and contribute positively.
+            </p>
+            <p class="about__content-details-para">
+                As an enthusiastic digital explorer, I've engaged with a wide array of web and mobile applications across diverse industries. If you're seeking a dedicated problem solver and tech enthusiast, I'm ready to bring my passion to your team. Feel free to reach out for a chat!
+            </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+                <!-- Core Competencies -->
+                <div class="skills__skill">Data Structures & Algorithms</div>
+                <div class="skills__skill">System Design</div>
+                <div class="skills__skill">Web Development</div>
+                <div class="skills__skill">DevOps</div>
+                <div class="skills__skill">Databases</div>
+                <div class="skills__skill">Object Oriented Programming</div>
+                <div class="skills__skill">Debugging</div>
+                <div class="skills__skill">Teamwork</div>
+                <div class="skills__skill">Attention to Detail</div>
+                <div class="skills__skill">Browser Extensions</div>
+
+                <!-- Languages & Frameworks -->
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">Java</div>
+                <div class="skills__skill">NodeJS</div>
+                <div class="skills__skill">VUE JS</div>
+                <div class="skills__skill">React JS</div>
+                <div class="skills__skill">Angular</div>
+                <div class="skills__skill">Django</div>
+
+                <!-- Tools & Technologies -->
+                <div class="skills__skill">PostgreSQL</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">Kubernetes</div>
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">Linux</div>
+                <div class="skills__skill">MacOS</div>
+                <div class="skills__skill">Windows</div>
+                <div class="skills__skill">Eclipse</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">JIRA</div>
+                <div class="skills__skill">Intellij</div>
+                <div class="skills__skill">CI/CD</div>
+                <div class="skills__skill">jQuery</div>
+                <div class="skills__skill">Bootstrap</div>
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Here, you will find some of the projects I created personally or collaborated on.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/LogAnalyzerDeployment.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+              <div class="text-align-center">
+                <a href="https://www.youtube.com/playlist?list=PL05xBOTCAQ11h1cZ59TTRtm_6JiQPCxHy"
+                  class="btn btn--med btn--theme youtube-btn"
+                  target="_blank">Video Walkthrough</a>
+              </div>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Log Analysis and Scalable Processing</h3>
+              <p class="projects__row-content-desc">
+               Built a powerful log analysis solution in scala, employing cutting-edge big data techniques to tackle massive log files. Leveraging Hadoop MapReduce, I engineered a robust application capable of efficiently handling substantial data volumes, optimizing processing through an Amazon EMR cluster.
+               Additionally, I architected and executed a RESTful service within an AWS Lambda function and a gRPC server. These services, accessible via gRPC and REST, enhances client interactions, enabling seamless access to insights derived from the processed log data.
+              </p>
+              <div class="skills">
+                <div class="skills__skill">Scala</div>
+                <div class="skills__skill">AWS (EMR, S3, EC2, Lambda, API Gateway)</div>
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">gRPC</div>
+                <div class="skills__skill">Rest</div>
+                <div class="skills__skill">Hadoop</div>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/SeshaPhaniVV/LogAnalyzer"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Gihub Link 1</a
+                >
+                <a
+                  href="https://github.com/SeshaPhaniVV/LogAnalyzer-grpc-rest-api"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Gihub Link 2</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/UrbanPulse.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Urban Pulses and its Social Fabrics</h3>
+              <p class="projects__row-content-desc">
+                This project aims to understand the urban cities and its social fabrics by creating an interactive visualization dashboard using a mix of computational topology techniques(using reeb graphs, merge trees, scalar functions build using piecewise linear function defined on a triangular mesh) and advanced text mining methods on top of huge data set of <a href="https://fmiranda.me/publications/urban-pulse/tvcg-2017-urbanpulse.pdf" target="_blank">"Yelp Open Dataset".</a>
+                This project builds on two previous studies, one focused on the concept of <a href="https://fmiranda.me/publications/urban-pulse/tvcg-2017-urbanpulse.pdf" target="_blank">"urban pulses"</a> and the other on the use of points of interest (POIs) to understand the social fabrics of urban areas <a href="http://urban-computing.com/urbcomp2022/file/UrbComp2022_paper_6824.pdf" target="_blank">"POI"</a>.</p>
+              <div class="skills">
+                <div class="skills__skill">Angular (D3.js)</div>
+                <div class="skills__skill">Nodejs</div>
+                <div class="skills__skill">Java</div>
+                <div class="skills__skill">C++</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Text Mining, Computational topology</div>
+              </div>
+              <div>
+                <a
+                  href="https://upsf.vvsphani.com/?data1=data/philadelphia,yelp,none"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/SeshaPhaniVV/urban-pulse-social-fabrics"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Github Link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/hexaland.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+              <div class="text-align-center">
+                <a
+                  href="https://github.com/SeshaPhaniVV/urban-pulse-social-fabrics"
+                  class="btn btn--med btn--theme dynamicBgClr text-align-center"
+                  target="_blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Hexaland Cluster Monitoring App</h3>
+              <p class="projects__row-content-desc">
+                In response to the challenges posed by COVID-19, I developed a web application named Hexaland Hotspot Monitoring App — a dynamic solution designed to assist the government in tracking and analyzing the growth of connected hotspots with its unique hexagonal landscape.
+                Key Features include Hexagonal Infrastructure, Border Connectivity, & Cluster Visualization.
+              </p>
+              <div class="skills">
+                <div class="skills__skill">Vue JS</div>
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">Docker Compose</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">PHPMyAdmin</div>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/SeshaPhaniVV/hexaland-client-web"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Github Frontend</a
+                >
+                <a
+                  href="https://github.com/SeshaPhaniVV/hexaland"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >Backend</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt text-black">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt text-black">
+            Please feel free to contact me. I am available for freelance work.
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formspree.io/f/mjvqyrvq" method="POST" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/phani-vvs-465271137/">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon">
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/SeshaPhaniVV">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon">
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/phani_vvs/">
+                <img class="main-footer__icon" src="./assets/png/insta-ico.png" alt="icon">
+              </a>
+            </div>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/phani_vvs/"></a>
+          </div>
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/phani_vvs/">
+            <div class="main-footer__row main-footer__row-2">
+              <h4 class="heading heading-sm text-lt"><span style="white-space: nowrap;">Venkata Sesha Phani, Vakicherla</span></h4>
+              <p class="main-footer__short-desc">
+                <span style="white-space: nowrap;">Coder | Full Stack Developer | Scalable Systems</span>
+              </p>
+            </div>
+          </a>
+        <div class="main-footer__lower"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/phani_vvs/">
+          © Copyright 2023. Template by
+          </a><a rel="noreferrer" target="_blank" href="https://www.rammaheshwari.com/">Ram Maheshwari</a>
+            <p>Adapted by Phani VVS</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
