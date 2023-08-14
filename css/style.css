@@ -717,3 +717,22 @@ textarea {
 .text-black {
     color: #000;
 }
+
+.button-container {
+  display: flex; /* Use flexbox for side-by-side layout */
+  align-items: center; /* Vertically center the buttons */
+  justify-content: center; /* Horizontally center the buttons */
+}
+
+.yt-btn {
+  margin: 5px; /* Add margin between buttons */
+}
+
+.width-50 {
+  width: 50px;
+}
+
+.youtube-icon {
+  display: flex; /* Align the icon and button vertically */
+  align-items: center;
+}
