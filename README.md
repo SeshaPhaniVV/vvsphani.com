@@ -16,8 +16,7 @@ My personal portfolio showcases my journey, skills, and projects. The technology
 - **SSL Certificate:** AWS Certificate Manager (ACM)
 
 ## Architectural Diagram
-![Architecure](ArchitectureDiagram.jpeg)
-
+![Alt text](assets/png/ArchitectureDiagram.jpeg)
 ## Deployment Diagram
 ![Deployment](Deployment.jpg)
 
