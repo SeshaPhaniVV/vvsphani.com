@@ -33,7 +33,7 @@ jobs:
             --include "index.js"
 
           # Get the CloudFront distribution ID from the secret
-          CLOUDFRONT_DISTRIBUTION_ID=$CLOUDFRONT_DISTRIBUTION_ID
+          CLOUDFRONT_DISTRIBUTION_ID=${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
 
           # Invalidate CloudFront cache
           aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
