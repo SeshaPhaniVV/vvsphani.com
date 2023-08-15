@@ -46,9 +46,6 @@ a {
   text-decoration: none;
   color: inherit; }
 
-li {
-  list-style: none; }
-
 input:focus,
 button:focus,
 a:focus,
@@ -72,7 +69,7 @@ textarea {
       font-size: 4.5rem; } }
 
 .heading-sec__mb-bg {
-  margin-bottom: 11rem; }
+  margin-bottom: 5rem; }
   @media only screen and (max-width: 56.25em) {
     .heading-sec__mb-bg {
       margin-bottom: 8rem; } }
@@ -397,6 +394,7 @@ textarea {
       font-size: 1.6rem; }
   .contact__btn {
     width: 30%;
+    background: #0062b9 !important;
     padding: 2rem 4rem;
     font-size: 1.6rem; }
     @media only screen and (max-width: 37.5em) {
@@ -639,6 +637,7 @@ textarea {
     font-size: 1.5rem;
     line-height: 1.7; }
   .main-footer__social-cont {
+    display: flex;
     margin-top: 2rem; }
   .main-footer__icon {
     margin-right: 1rem;
@@ -735,4 +734,14 @@ textarea {
 .youtube-icon {
   display: flex; /* Align the icon and button vertically */
   align-items: center;
+}
+
+.experience {
+  background: #f2efef;
+  font-family: Poppins,sans-serif;
+}
+
+.company-details {
+  display: flex;
+  justify-content: space-between;
 }
